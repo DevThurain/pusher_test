@@ -69,7 +69,7 @@ class MyApp extends StatelessWidget {
                   case CalendarScreen.routeName:
                     return const CalendarScreen();
                   default:
-                    return const AppStartScreen();
+                    return const CalendarScreen();
                 }
               },
             );
